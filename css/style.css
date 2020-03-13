@@ -30,9 +30,62 @@ a{
     background-position: center;
 }
 
+#foto {
+    width: 50%;
+    height: 500px;
+    background-image: url(../img/jane2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0 auto;
+}
+
 #rodape {
     font-weight: bold;
     text-align: center;
     background: grey;
     padding: 10px;
+}
+
+#about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#videos {
+    margin-left: 200px;
+}
+
+#music {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.contact form *{
+    display: block;
+}
+
+.contact-form form, iframe {
+    display: inline-block;
+    width: 49%;
 }
